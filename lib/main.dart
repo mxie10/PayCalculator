@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
         res_totalPay = res_regularPay;
         return;
       }else{
-        res_regularPay = num1! * 40;
+        res_regularPay = num2! * 40;
         res_overTimePay = (num1!-40) * num2!*1.5;
         res_totalPay = (num1!-40) * num2!*1.5+40*num2!;
       }
